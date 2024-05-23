@@ -1,0 +1,314 @@
+/* Styles for header */
+header {
+    background-color:green; 
+    padding: 20px 0; 
+    text-align: center; 
+  }
+  
+  h1 {
+    margin: 0; 
+    color: white; 
+    
+  }
+
+  .li{
+    color: #ff9004;
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    color: white;
+    
+  }
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; 
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s ease; 
+    padding: 30px;
+  }
+  
+  nav ul li a:hover {
+    color: red; 
+  }
+
+
+body {
+    background-image: url('image.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  
+  section {
+    padding: 60px; 
+  }
+  
+  p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color:black; 
+    text-align: center;
+    font-weight: 300;
+  }
+  
+
+  
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 30px;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 50px; 
+    max-width: 200px; 
+  }
+  
+  .card h2 {
+    font-size: 18px; 
+    color: #333; 
+  }
+  
+  .card p {
+    font-size: 14px; 
+    color: #666; 
+  }
+  
+
+.about-khadija {
+    padding: 20px; 
+    background-color: blanchedalmond; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px; 
+  }
+  
+  .about-khadija h2 {
+    font-size: 40px; 
+    color: #333; 
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .about-khadija p {
+    font-size: 16px; 
+    line-height: 3;
+    color: black; 
+  }
+  
+.education {
+    padding: 40px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px; 
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 34px; 
+    color:black; 
+  }
+  
+  .education-item {
+    margin-top: 60px; 
+  }
+  
+  .education-item h3 {
+    font-size: 30px; 
+    color: black; 
+  }
+  
+  .education-item p {
+    font-size: 30px; 
+    color: #666; 
+    font-family: sans-serif;
+
+  }
+
+.skills {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  
+.skills {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .skills h2 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 20px; 
+  }
+  
+  .skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .skill-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    max-width: 300px; 
+  }
+  
+  .skill-card h3 {
+    font-size: 20px; 
+    color: #333; 
+  }
+  
+  .skill-card p {
+    font-size: 16px; 
+    color: #666; 
+  }
+  
+
+.contact {
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .contact h2 {
+    font-size: 24px; 
+    color: #333; /
+    margin-bottom: 20px; 
+  }
+  
+  .contact-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .contact-info p {
+    font-size: 16px; 
+    color: #666; 
+  }
+  
+  .contact-table table {
+    width: 100%; 
+  }
+  
+  .contact-table input[type="email"], .contact-table textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  .contact-links {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .contact-links a {
+    font-size: 16px; 
+    color: #333; 
+    text-decoration: none; 
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline; 
+  }
+  
+
+.footer {
+    background-color:green; 
+    color: #fff; 
+    padding: 40px 20px; 
+    text-align: center; 
+  }
+  
+  .footer-content {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .footer-column {
+    flex: 1; 
+    margin-right: 20px; 
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0; 
+  }
+  
+  .footer-column h3 {
+    font-size: 20px; 
+    margin-bottom: 15px; 
+  }
+  
+  .footer-column p, .footer-column ul {
+    margin: 0; 
+    list-style: none; 
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px; 
+  }
+  
+  .footer-column ul li a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .social-icons {
+    margin-top: 15px; 
+  }
+  
+  .social-icons a {
+    color:orange; 
+    text-decoration: none; 
+    margin-right: 10px; 
+  }
+  
+  .social-icons a:hover {
+    color: white; 
+  }
+  
