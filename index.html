@@ -83,27 +83,27 @@
     <section class="contact">
         <h2>Contact</h2>
         <div class="contact-content">
-            <div class="contact-info">
-                <p>Email: khadijajelle3@gmail.com</p>
-                <p>Phone: +254726853358</p>
-                <p>Address: 70100 Garissa, City, Country</p>
-            </div>
-            <div class="contact-table">
-                <table>
-                    <tr>
-                        <td>Email:</td>
-                        <td><input type="email" placeholder="Your email"></td>
-                    </tr>
-                    <tr>
-                        <td>Message:</td>
-                        <td><textarea placeholder="Your message"></textarea></td>
-                    </tr>
-                </table>
-                <button id="btn-1">Send</button>
-            </div>
-           
-        </div>
-    </section>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
     
     
     
