@@ -138,6 +138,20 @@ body {
     font-size: 30px; 
     color: black; 
   }
+  #btn-1{
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 100px;
+
+  }
+  #btn-1:hover{
+    background-color: white;
+    color: black;
+  }
   
   .education-item p {
     font-size: 30px; 
