@@ -29,5 +29,3 @@ Quick links to navigate to important sections of the website, including Home, Ab
 Links to Khadija's social media profiles for users to stay connected and follow her work.
 
 ---
-
-Feel free to customize this README to suit your specific needs. You can add more sections or information as necessary.
